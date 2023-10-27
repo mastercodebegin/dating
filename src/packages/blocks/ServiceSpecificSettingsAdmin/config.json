@@ -1,0 +1,65 @@
+{
+  "id": "ServiceSpecificSettingsAdmin",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/ServiceSpecificSettingsAdmin",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ServiceSpecificSettingsAdmin"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ServiceSpecificSettingsAdmin": {
+        "file": "ServiceSpecificSettingsAdmin.tsx",
+        "extends": "ServiceSpecificSettingsAdminController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ServiceSpecificSettingsAdminController",
+            "path": "./ServiceSpecificSettingsAdminController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ServiceSpecificSettingsAdminController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ServiceSpecificSettingsAdmin"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ServiceSpecificSettingsAdmin": {
+        "file": "ServiceSpecificSettingsAdmin.web.tsx",
+        "extends": "ServiceSpecificSettingsAdminController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ServiceSpecificSettingsAdminController",
+            "path": "./ServiceSpecificSettingsAdminController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ServiceSpecificSettingsAdminController"
+          }
+        ]
+      }
+    }
+  }
+}

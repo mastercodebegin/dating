@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Documents/datingapp-273542-react-native/src/packages/blocks/chat/__tests__/step-definitions/NotifiedFriend.steps.tsx">
+        <testCase name="Notified After user end level1 game then usern can wait for friend user to end level1 game" duration="475"/>
+    </file>
+    <file path="/data/home/ubuntu/Documents/datingapp-273542-react-native/src/packages/blocks/chat/__tests__/step-definitions/GameScore.steps.tsx">
+        <testCase name="GameScore User can see score after game ends" duration="618"/>
+    </file>
+    <file path="/data/home/ubuntu/Documents/datingapp-273542-react-native/src/packages/blocks/chat/__tests__/step-definitions/chat.steps.tsx">
+        <testCase name="Chat User can see chatable users and new matches" duration="928"/>
+    </file>
+    <file path="/data/home/ubuntu/Documents/datingapp-273542-react-native/src/packages/blocks/chat/__tests__/step-definitions/ChatView.steps.tsx">
+        <testCase name="ChatView User navigates to ChatView" duration="1128"/>
+    </file>
+    <file path="/data/home/ubuntu/Documents/datingapp-273542-react-native/src/packages/blocks/chat/__tests__/step-definitions/chat.web.steps.tsx">
+        <testCase name="Chat User navigates to Chat" duration="67"/>
+    </file>
+    <file path="/data/home/ubuntu/Documents/datingapp-273542-react-native/src/packages/blocks/chat/__tests__/step-definitions/ChatView.web.steps.tsx">
+        <testCase name="ChatView User navigates to ChatView" duration="153"/>
+    </file>
+    <file path="/data/home/ubuntu/Documents/datingapp-273542-react-native/src/packages/blocks/chat/__tests__/step-definitions/Level1Result.steps.tsx">
+        <testCase name="GameScore User can see score and status of user after game ends" duration="807"/>
+        <testCase name="GameScore User can goback to chat page" duration="296"/>
+        <testCase name="GameScore User can send friend request after user lost game" duration="245"/>
+        <testCase name="GameScore User can see accept or reject request status after user win game" duration="235"/>
+    </file>
+</testExecutions>

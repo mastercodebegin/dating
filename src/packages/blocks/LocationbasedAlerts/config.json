@@ -1,0 +1,65 @@
+{
+  "id": "LocationbasedAlerts",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/LocationbasedAlerts",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LocationbasedAlerts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LocationbasedAlerts": {
+        "file": "LocationbasedAlerts.tsx",
+        "extends": "LocationbasedAlertsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "LocationbasedAlertsController",
+            "path": "./LocationbasedAlertsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LocationbasedAlertsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LocationbasedAlerts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "LocationbasedAlerts": {
+        "file": "LocationbasedAlerts.web.tsx",
+        "extends": "LocationbasedAlertsController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "LocationbasedAlertsController",
+            "path": "./LocationbasedAlertsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./LocationbasedAlertsController"
+          }
+        ]
+      }
+    }
+  }
+}

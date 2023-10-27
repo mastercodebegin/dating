@@ -1,0 +1,65 @@
+{
+  "id": "MultipageForms2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/MultipageForms2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "MultipageForms2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MultipageForms2": {
+        "file": "MultipageForms2.tsx",
+        "extends": "MultipageForms2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "MultipageForms2Controller",
+            "path": "./MultipageForms2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MultipageForms2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "MultipageForms2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MultipageForms2": {
+        "file": "MultipageForms2.web.tsx",
+        "extends": "MultipageForms2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "MultipageForms2Controller",
+            "path": "./MultipageForms2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MultipageForms2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

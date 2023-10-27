@@ -1,0 +1,65 @@
+{
+  "id": "GameScore2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/GameScore2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GameScore2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GameScore2": {
+        "file": "GameScore2.tsx",
+        "extends": "GameScore2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "GameScore2Controller",
+            "path": "./GameScore2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GameScore2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GameScore2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GameScore2": {
+        "file": "GameScore2.web.tsx",
+        "extends": "GameScore2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "GameScore2Controller",
+            "path": "./GameScore2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GameScore2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

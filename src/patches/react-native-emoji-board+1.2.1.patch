@@ -1,0 +1,130 @@
+diff --git a/node_modules/react-native-emoji-board/component/CategoryTabBar.js b/node_modules/react-native-emoji-board/component/CategoryTabBar.js
+index fc61df5..c4c36fb 100644
+--- a/node_modules/react-native-emoji-board/component/CategoryTabBar.js
++++ b/node_modules/react-native-emoji-board/component/CategoryTabBar.js
+@@ -6,8 +6,8 @@ import {
+     StyleSheet,
+     Dimensions
+ } from 'react-native';
+-import MaIcon from 'react-native-vector-icons/MaterialCommunityIcons';
+-import FontIcon from 'react-native-vector-icons/FontAwesome';
++import MaIcon from 'react-native-vector-icons/MaterialIcons';
++import FontIcon from 'react-native-vector-icons/FontAwesome5';
+ import {isIphoneXorAbove} from '../utils';
+ import {IconType} from '../constant';
+ 
+@@ -94,7 +94,7 @@ const CategoryTabBar = ({
+                     style={styles.backsplace}
+                     onPress={() => clickRemove()}>
+                     <MaIcon
+-                        name={'backspace-outline'}
++                        name={'backspace'}
+                         size={24}
+                         color={'#000'}
+                     />
+diff --git a/node_modules/react-native-emoji-board/component/EmojiIcon.js b/node_modules/react-native-emoji-board/component/EmojiIcon.js
+index 7e35c45..2a76710 100644
+--- a/node_modules/react-native-emoji-board/component/EmojiIcon.js
++++ b/node_modules/react-native-emoji-board/component/EmojiIcon.js
+@@ -6,7 +6,8 @@ const styles = StyleSheet.create({
+     emojiTouch: {
+         paddingVertical: 5,
+         height: 40,
+-        justifyContent: 'center'
++        justifyContent: 'center',
++        zIndex:1000
+     },
+     emoji: {
+         textAlign: 'center'
+diff --git a/node_modules/react-native-emoji-board/constant.js b/node_modules/react-native-emoji-board/constant.js
+index 4d92a9a..d1219d9 100644
+--- a/node_modules/react-native-emoji-board/constant.js
++++ b/node_modules/react-native-emoji-board/constant.js
+@@ -7,33 +7,33 @@ export const defaultProps = {
+     categories: [
+         {
+             name: 'Smileys & Emotion',
+-            iconType: IconType.material,
+-            icon: 'sticker-emoji'
++            iconType: IconType.fontAwesome,
++            icon: 'smile'
+         },
+         {
+             name: 'People & Body',
+-            iconType: IconType.material,
+-            icon: 'hail'
++            iconType: IconType.fontAwesome,
++            icon: 'heart'
+         },
+         {
+             name: 'Animals & Nature',
+-            iconType: IconType.material,
++            iconType: IconType.fontAwesome,
+             icon: 'dog'
+         },
+         {
+             name: 'Food & Drink',
+-            iconType: IconType.material,
+-            icon: 'food'
++            iconType: IconType.fontAwesome,
++            icon: 'apple-alt'
+         },
+         {
+             name: 'Activities',
+-            iconType: IconType.material,
+-            icon: 'soccer'
++            iconType: IconType.fontAwesome,
++            icon: 'baseball-ball'
+         },
+         {
+             name: 'Travel & Places',
+-            iconType: IconType.material,
+-            icon: 'train-car'
++            iconType: IconType.fontAwesome,
++            icon: 'car-side'
+         },
+         {
+             name: 'Objects',
+@@ -48,7 +48,7 @@ export const defaultProps = {
+         {
+             name: 'Flags',
+             iconType: IconType.material,
+-            icon: 'flag-variant-outline'
++            icon: 'flag'
+         }
+     ],
+     blackList: ['white_frowning_face']
+diff --git a/node_modules/react-native-emoji-board/index.js b/node_modules/react-native-emoji-board/index.js
+index 32c674a..690a152 100644
+--- a/node_modules/react-native-emoji-board/index.js
++++ b/node_modules/react-native-emoji-board/index.js
+@@ -47,7 +47,8 @@ const EmojiBoard = ({
+     categoryIconSize = 20,
+     containerStyle = {},
+     tabBarStyle = {},
+-    labelStyle = {}
++    labelStyle = {},
++    onLayout,
+ }) => {
+     // emoji board height only for android
+     const containerHeight = numCols * 40 + 40 + 40;
+@@ -113,7 +114,8 @@ const EmojiBoard = ({
+                     height: isAndroid() ? containerHeight : 'auto'
+                 },
+                 containerStyle
+-            ]}>
++            ]}
++            onLayout={(e) => onLayout(e.nativeEvent.layout)}>
+             <ScrollableTabView
+                 tabBarPosition={tabBarPosition}
+                 renderTabBar={() => (
+@@ -170,7 +172,8 @@ EmojiBoard.propTypes = {
+     categoryIconSize: PropTypes.number,
+     containerStyle: PropTypes.object,
+     tabBarStyle: PropTypes.object,
+-    labelStyle: PropTypes.object
++    labelStyle: PropTypes.object,
++    onLayout: PropTypes.funcs,
+ };
+ 
+ export default EmojiBoard;

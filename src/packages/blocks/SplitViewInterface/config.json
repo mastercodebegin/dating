@@ -1,0 +1,65 @@
+{
+  "id": "SplitViewInterface",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/SplitViewInterface",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SplitViewInterface"
+    ],
+    "assembler-dependencies": ["react-native-flash-message"],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SplitViewInterface": {
+        "file": "SplitViewInterface.tsx",
+        "extends": "SplitViewInterfaceController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "SplitViewInterfaceController",
+            "path": "./SplitViewInterfaceController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SplitViewInterfaceController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SplitViewInterface"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SplitViewInterface": {
+        "file": "SplitViewInterface.web.tsx",
+        "extends": "SplitViewInterfaceController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "SplitViewInterfaceController",
+            "path": "./SplitViewInterfaceController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SplitViewInterfaceController"
+          }
+        ]
+      }
+    }
+  }
+}

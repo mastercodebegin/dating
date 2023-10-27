@@ -1,0 +1,4264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dashboard User navigates to dashboard 1`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+    }
+  }
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "padding": 10,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/dashboard/assets/bell.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "marginRight": 18.115942028985508,
+              "marginTop": 10,
+              "tintColor": "grey",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+      <View
+        style={
+          Object {
+            "borderColor": "000",
+            "borderRadius": 8,
+            "borderWidth": 0.5,
+            "height": 163.04347826086956,
+            "margin": 15,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Question of the day
+          </Text>
+          <Icon
+            allowFontScaling={false}
+            color="#000"
+            name="chevron-right"
+            size={25}
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+        >
+          Lorem p sipsum dolor sit amet consectetur adipisicing elit. Eum asperiores consequatur
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginLeft": "10%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginLeft": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "200",
+              }
+            }
+          >
+            "Lorem ipsum dolor sit amet consectetur 
+            
+
+             adipisicing elit Quae"
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "200",
+              }
+            }
+          >
+            Lorem ipsum dolor sit
+          </Text>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontWeight": "bold",
+            "marginBottom": 5,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      >
+        People Status
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85% + 4%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`dashboard User navigates to dashboard 2`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+    }
+  }
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "padding": 10,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/dashboard/assets/bell.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "marginRight": 18.115942028985508,
+              "marginTop": 10,
+              "tintColor": "grey",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+      <View
+        style={
+          Object {
+            "borderColor": "000",
+            "borderRadius": 8,
+            "borderWidth": 0.5,
+            "height": 163.04347826086956,
+            "margin": 15,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Question of the day
+          </Text>
+          <Icon
+            allowFontScaling={false}
+            color="#000"
+            name="chevron-right"
+            size={25}
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+        >
+          Lorem p sipsum dolor sit amet consectetur adipisicing elit. Eum asperiores consequatur
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginLeft": "10%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginLeft": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "200",
+              }
+            }
+          >
+            "Lorem ipsum dolor sit amet consectetur 
+            
+
+             adipisicing elit Quae"
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "200",
+              }
+            }
+          >
+            Lorem ipsum dolor sit
+          </Text>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontWeight": "bold",
+            "marginBottom": 5,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      >
+        People Status
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85% + 4%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`dashboard User navigates to dashboard 3`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+    }
+  }
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "padding": 10,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/dashboard/assets/bell.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "marginRight": 18.115942028985508,
+              "marginTop": 10,
+              "tintColor": "grey",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+      <View
+        style={
+          Object {
+            "borderColor": "000",
+            "borderRadius": 8,
+            "borderWidth": 0.5,
+            "height": 163.04347826086956,
+            "margin": 15,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Question of the day
+          </Text>
+          <Icon
+            allowFontScaling={false}
+            color="#000"
+            name="chevron-right"
+            size={25}
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+        >
+          Lorem p sipsum dolor sit amet consectetur adipisicing elit. Eum asperiores consequatur
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginLeft": "10%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginLeft": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "200",
+              }
+            }
+          >
+            "Lorem ipsum dolor sit amet consectetur 
+            
+
+             adipisicing elit Quae"
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "200",
+              }
+            }
+          >
+            Lorem ipsum dolor sit
+          </Text>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontWeight": "bold",
+            "marginBottom": 5,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      >
+        People Status
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85% + 4%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`dashboard User navigates to dashboard 4`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+    }
+  }
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "padding": 10,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/dashboard/assets/bell.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "marginRight": 18.115942028985508,
+              "marginTop": 10,
+              "tintColor": "grey",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+      <View
+        style={
+          Object {
+            "borderColor": "000",
+            "borderRadius": 8,
+            "borderWidth": 0.5,
+            "height": 163.04347826086956,
+            "margin": 15,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Question of the day
+          </Text>
+          <Icon
+            allowFontScaling={false}
+            color="#000"
+            name="chevron-right"
+            size={25}
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+        >
+          Lorem p sipsum dolor sit amet consectetur adipisicing elit. Eum asperiores consequatur
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginLeft": "10%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginLeft": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "200",
+              }
+            }
+          >
+            "Lorem ipsum dolor sit amet consectetur 
+            
+
+             adipisicing elit Quae"
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "200",
+              }
+            }
+          >
+            Lorem ipsum dolor sit
+          </Text>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontWeight": "bold",
+            "marginBottom": 5,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      >
+        People Status
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85% + 4%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`dashboard User navigates to dashboard 5`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+    }
+  }
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "padding": 10,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/dashboard/assets/bell.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "marginRight": 18.115942028985508,
+              "marginTop": 10,
+              "tintColor": "grey",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+      <View
+        style={
+          Object {
+            "borderColor": "000",
+            "borderRadius": 8,
+            "borderWidth": 0.5,
+            "height": 163.04347826086956,
+            "margin": 15,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Question of the day
+          </Text>
+          <Icon
+            allowFontScaling={false}
+            color="#000"
+            name="chevron-right"
+            size={25}
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+        >
+          Lorem p sipsum dolor sit amet consectetur adipisicing elit. Eum asperiores consequatur
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginLeft": "10%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginLeft": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "200",
+              }
+            }
+          >
+            "Lorem ipsum dolor sit amet consectetur 
+            
+
+             adipisicing elit Quae"
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "200",
+              }
+            }
+          >
+            Lorem ipsum dolor sit
+          </Text>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontWeight": "bold",
+            "marginBottom": 5,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      >
+        People Status
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85% + 4%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`dashboard User navigates to dashboard 6`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+    }
+  }
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "padding": 10,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/dashboard/assets/bell.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "marginRight": 18.115942028985508,
+              "marginTop": 10,
+              "tintColor": "grey",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+      <View
+        style={
+          Object {
+            "borderColor": "000",
+            "borderRadius": 8,
+            "borderWidth": 0.5,
+            "height": 163.04347826086956,
+            "margin": 15,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Question of the day
+          </Text>
+          <Icon
+            allowFontScaling={false}
+            color="#000"
+            name="chevron-right"
+            size={25}
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+        >
+          Lorem p sipsum dolor sit amet consectetur adipisicing elit. Eum asperiores consequatur
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginLeft": "10%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginLeft": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "200",
+              }
+            }
+          >
+            "Lorem ipsum dolor sit amet consectetur 
+            
+
+             adipisicing elit Quae"
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "200",
+              }
+            }
+          >
+            Lorem ipsum dolor sit
+          </Text>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontWeight": "bold",
+            "marginBottom": 5,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      >
+        People Status
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85% + 4%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;
+
+exports[`dashboard User navigates to dashboard 7`] = `
+<ScrollViewMock
+  contentContainerStyle={
+    Object {
+      "flex": 1,
+    }
+  }
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "maxWidth": 650,
+      "width": "100%",
+    }
+  }
+>
+  <TouchableWithoutFeedback
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+            "padding": 10,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../packages/blocks/dashboard/assets/bell.png",
+            }
+          }
+          style={
+            Object {
+              "height": 20,
+              "marginRight": 18.115942028985508,
+              "marginTop": 10,
+              "tintColor": "grey",
+              "width": 20,
+            }
+          }
+        />
+      </TouchableOpacity>
+      <View
+        style={
+          Object {
+            "borderColor": "000",
+            "borderRadius": 8,
+            "borderWidth": 0.5,
+            "height": 163.04347826086956,
+            "margin": 15,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Question of the day
+          </Text>
+          <Icon
+            allowFontScaling={false}
+            color="#000"
+            name="chevron-right"
+            size={25}
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#9e9e9e",
+            }
+          }
+        >
+          Lorem p sipsum dolor sit amet consectetur adipisicing elit. Eum asperiores consequatur
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "marginBottom": 5,
+            "marginLeft": "10%",
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "marginLeft": 15,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "black",
+                "fontWeight": "200",
+              }
+            }
+          >
+            "Lorem ipsum dolor sit amet consectetur 
+            
+
+             adipisicing elit Quae"
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontWeight": "200",
+              }
+            }
+          >
+            Lorem ipsum dolor sit
+          </Text>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontWeight": "bold",
+            "marginBottom": 5,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      >
+        People Status
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85% + 4%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#eeeeee",
+            "borderRadius": 8,
+            "height": 217.3913043478261,
+            "margin": 10,
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#eeeeee",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <View>
+              <Image
+                source={
+                  Object {
+                    "uri": "https://source.unsplash.com/user/c_v_r/100×100",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 45,
+                    "width": 60,
+                  }
+                }
+              />
+            </View>
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#eeeeee",
+                  "flexDirection": "column",
+                  "paddingLeft": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Riya
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontWeight": "500",
+                  }
+                }
+              >
+                Leval3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-end",
+                "backgroundColor": "#eeeeee",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Intimacy 
+                85%
+              </Text>
+            </View>
+            <View>
+              <Text
+                style={
+                  Object {
+                    "color": "#9e9e9e",
+                  }
+                }
+              >
+                Compatability 
+                +72%
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "borderColor": "#9e9e9e",
+              "borderWidth": 0.5,
+              "flex": 0.0001,
+              "height": 1,
+              "marginTop": 15,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#eeeeee",
+              "flex": 0.5,
+              "marginTop": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#9e9e9e",
+              }
+            }
+          >
+            chaerly wants to die old age 
+          </Text>
+        </View>
+      </View>
+    </View>
+  </TouchableWithoutFeedback>
+</ScrollViewMock>
+`;

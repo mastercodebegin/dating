@@ -1,0 +1,65 @@
+{
+  "id": "IpBlocker",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/IpBlocker",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "IpBlocker"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "IpBlocker": {
+        "file": "IpBlocker.tsx",
+        "extends": "IpBlockerController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "IpBlockerController",
+            "path": "./IpBlockerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./IpBlockerController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "IpBlocker"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "IpBlocker": {
+        "file": "IpBlocker.web.tsx",
+        "extends": "IpBlockerController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "IpBlockerController",
+            "path": "./IpBlockerController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./IpBlockerController"
+          }
+        ]
+      }
+    }
+  }
+}

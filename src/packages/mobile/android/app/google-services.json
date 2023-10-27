@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "898208073334",
+    "project_id": "datingapp-dc127",
+    "storage_bucket": "datingapp-dc127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898208073334:android:c7122d90288d5ad2d58157",
+        "android_client_info": {
+          "package_name": "com.DatingApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898208073334-3dfuthp2cterkthith7gkp4iagc64fbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DatingApp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "898208073334-jke7li9uddfsq4rufjt1biksl3afck6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.DatingApp",
+            "certificate_hash": "86f80572f9fdc8fc9a2a0f16961be0f2f109ec68"
+          }
+        },
+        {
+          "client_id": "898208073334-er5oihu0tfce5am1hb41asi0kk8cqnhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6R5RY1IH7y6uNgMQwfktOELCzHmq2RFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898208073334-er5oihu0tfce5am1hb41asi0kk8cqnhf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

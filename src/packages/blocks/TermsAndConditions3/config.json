@@ -1,0 +1,65 @@
+{
+  "id": "TermsAndConditions3",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/TermsAndConditions3",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TermsAndConditions3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "TermsAndConditions3": {
+        "file": "TermsAndConditions3.tsx",
+        "extends": "TermsAndConditions3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "TermsAndConditions3Controller",
+            "path": "./TermsAndConditions3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TermsAndConditions3Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TermsAndConditions3"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "TermsAndConditions3": {
+        "file": "TermsAndConditions3.web.tsx",
+        "extends": "TermsAndConditions3Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "TermsAndConditions3Controller",
+            "path": "./TermsAndConditions3Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TermsAndConditions3Controller"
+          }
+        ]
+      }
+    }
+  }
+}

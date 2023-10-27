@@ -1,0 +1,16 @@
+export const insertPhoto = require("../assets/insert_photo.png");
+export const imgPasswordVisible = require("../assets/ic_password_visible.png");
+export const imgPasswordInVisible = require("../assets/ic_password_invisible.png");
+export const imgBackArrow = require("../assets/backArrow.png");
+export const imgSmile = require("../assets/smile.png");
+export const imgPlane = require("../assets/plane.png");
+export const imgCircle = require("../assets/circle.png");
+export const imgCheckedCircle = require("../assets/checkCircle.png");
+export const imgGreenCheckCircle = require("../assets/greenCheckCircle.png");
+export const  imgRedCrossCircle = require("../assets/redCrossCircle.png");
+export const notifiedImg = require("../assets/notifiedImg.png");
+export const completeImg = require("../assets/completeImg.png");
+export const gamePlayIcon = require("../assets/gamePlayIcon.png");
+export const sendIcon = require("../assets/sendIcon.png");
+export const attachmentIcon = require("../assets/attachmentIcon.png");
+export const lostImage = require("../assets/lostImage.png");

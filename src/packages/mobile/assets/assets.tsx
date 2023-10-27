@@ -1,0 +1,11 @@
+export const home = require("../assets/home.png");
+export const homeLight = require("../assets/homeLight.png");
+export const message = require("../assets/messages-3.png");
+export const messageLight = require("../assets/messages-3Light.png");
+export const people = require("../assets/people.png");
+export const peopleLight = require("../assets/peopleLight.png");
+export const profile = require("../assets/profile.png");
+export const profileLight = require("../assets/profileLight.png");
+// export const imgPasswordInVisible = require("../assets/ic_password_invisible.png");
+// export const profile = require("../assets/profile.png");
+// export const leftbutton = require("../assets/leftbutton.png");

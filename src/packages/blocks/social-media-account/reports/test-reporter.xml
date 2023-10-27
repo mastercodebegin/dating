@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/data/home/ubuntu/Desktop/datingapp-273542-react-native/src/packages/blocks/social-media-account/__tests__/step-definitions/CustomFacebookLogInButton.steps.tsx">
+        <testCase name="CustomFacebookLogInButton User navigates to CustomFacebookLogInButton" duration="8"/>
+    </file>
+    <file path="/data/home/ubuntu/Desktop/datingapp-273542-react-native/src/packages/blocks/social-media-account/__tests__/step-definitions/CustomGoogleLogInButton.steps.tsx">
+        <testCase name="CustomGoogleLogInButton User navigates to CustomGoogleLogInButton" duration="551"/>
+    </file>
+</testExecutions>

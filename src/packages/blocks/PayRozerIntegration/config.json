@@ -1,0 +1,65 @@
+{
+  "id": "PayRozerIntegration",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PayRozerIntegration",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PayRozerIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PayRozerIntegration": {
+        "file": "PayRozerIntegration.tsx",
+        "extends": "PayRozerIntegrationController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "PayRozerIntegrationController",
+            "path": "./PayRozerIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PayRozerIntegrationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PayRozerIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PayRozerIntegration": {
+        "file": "PayRozerIntegration.web.tsx",
+        "extends": "PayRozerIntegrationController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "PayRozerIntegrationController",
+            "path": "./PayRozerIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PayRozerIntegrationController"
+          }
+        ]
+      }
+    }
+  }
+}

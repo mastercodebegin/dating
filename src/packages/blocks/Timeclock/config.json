@@ -1,0 +1,65 @@
+{
+  "id": "Timeclock",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Timeclock",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Timeclock"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Timeclock": {
+        "file": "Timeclock.tsx",
+        "extends": "TimeclockController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "TimeclockController",
+            "path": "./TimeclockController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TimeclockController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Timeclock"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Timeclock": {
+        "file": "Timeclock.web.tsx",
+        "extends": "TimeclockController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "TimeclockController",
+            "path": "./TimeclockController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TimeclockController"
+          }
+        ]
+      }
+    }
+  }
+}
